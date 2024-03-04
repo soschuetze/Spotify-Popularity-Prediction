@@ -1,8 +1,7 @@
 # Spotify-Popularity-Prediction
-CS 305 Final Project
 
-Explored machine learning algorithms to best predict popularity of songs of the top Spotify artists as well as predicting which artist belongs to a song based on the song's features. Machine learning models include linear regression, logistic regression, decision trees, k-nearest-neighbors, SVMs, and neural networks. For predicting the artist, the neural networks had the highest accuracy (0.89), an F1-score of 0.79, a precision score of 0.74, and a recall of 0.75. For predicting the popularity score, the decision tree had the lowest RMSE of 4.2. 
+Explored machine learning algorithms to best predict popularity of songs of the top Spotify artists as well as predicting which artist belongs to a song based on the song's features. Machine learning models include linear regression, logistic regression, decision trees, k-nearest-neighbors, SVMs, and neural networks. For both tasks, the neural network performed the best. For predicting the popularity score, the neural network with 5 polynomial features has an R-squared of 0.70. For predicting the artist, the neural network also with 5 polynomial features has an accuracy of 0.92. The data was upscaled since Taylor Swift had far more songs than all of the other artists. Using shap feature values, popularity is the best predictive feature of which artist a song is by, and liveness is least predictive.
 
-![Hierarchical clustering of five artists in dataset](hierarchicalClustering.png)
+![Shap feature values](shap_values.png)
 
 
